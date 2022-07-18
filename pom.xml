@@ -43,9 +43,7 @@
 
     </properties>
 
-    <dependencyManagement>
-        <!-- Import the maven Spring IO Platform Bill Of Materials (BOM) -->
-        <dependencies>
+           <dependencies>
 <dependency>
   <groupId>javax.xml.bind</groupId>
   <artifactId>jaxb-api</artifactId>
@@ -69,7 +67,7 @@
                 <scope>import</scope>
             </dependency>
         
-    <dependencies>
+  
         <dependency>
             <groupId>org.jadira.usertype</groupId>
             <artifactId>usertype.core</artifactId>
